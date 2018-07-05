@@ -1,4 +1,4 @@
-library 'https://github.com/ds-demo-cjt/pipeline-libraries'
+library 'github.com/ds-demo-cjt/pipeline-libraries'
 pipeline {
 
 	agent any
