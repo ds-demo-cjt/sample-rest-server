@@ -1,7 +1,9 @@
 library 'github.com/ds-demo-cjt/pipeline-libraries'
 pipeline {
 
-	agent swarm
+	agent {
+	   label 'swarm'
+        }
 
 	options {
 		timestamps()
