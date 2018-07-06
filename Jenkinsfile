@@ -13,7 +13,7 @@ pipeline {
 
 	environment {
 		DOCKERHUB = credentials('dockerhub')
-		IMAGE_NAME = "ds-demo-cjt/sample-rest-server"
+		IMAGE_NAME = "dspeers/sample-rest-server"
 		IMAGE_TAG = dockerImageTag()
 		DOCKER_NETWORK = "cjt-network"
 	}
