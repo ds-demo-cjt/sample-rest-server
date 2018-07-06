@@ -80,7 +80,7 @@ pipeline {
 					},
 					"Push Docker Image" : {
 						sh """
-							docker login -u $DOCKERHUB_USR -p $DOCKERHUB_PSW
+							docker login -u '$DOCKERHUB_USR' -p '$DOCKERHUB_PSW'
 							docker push $IMAGE_NAME:$IMAGE_TAG
 						"""
 					}
